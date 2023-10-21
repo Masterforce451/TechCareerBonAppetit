@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Bon Appetit</string>
-    <string name="server_client_id">"589423648260-puh823upmm5bnng0ccnhgknp38luh5rl.apps.googleusercontent.com"</string>
+    <string name="server_client_id">"YOUR FIREBASE API KEY"</string>
     <string name="Ayran">Nefis ayranımızla susuzluğunuzu giderin, sağlıklı kalın. Yoğurt, su ve bir tutam tuzun mükemmel karışımından yapılan bu içecek, her an keyifle içebileceğiniz ferahlatıcı bir içecektir.</string>
     <string name="Baklava">Lezzetli ve taze Türk baklavamızı denemek ister misiniz? Özenle hazırladığımız bu tatlı lezzet damağınızda unutulmaz bir iz bırakacak.</string>
     <string name="Fanta">Susuzluğunuzu giderecek serinletici ve gazlı bir içecek mi arıyorsunuz? Başka yerde arama! Çıtır çıtır ve meyvemsi tatlarıyla Fanta mükemmel bir seçim.</string>

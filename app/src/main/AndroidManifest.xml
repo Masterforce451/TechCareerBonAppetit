@@ -38,7 +38,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDyynJC04P_USAWmzvMZ-y29sOXv6vUVR8" />
+            android:value="YOUR GOOGLE MAPS API KEY" />
 
     </application>
 

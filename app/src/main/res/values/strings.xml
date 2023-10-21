@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Bon Appetit</string>
-    <string name="server_client_id">"589423648260-puh823upmm5bnng0ccnhgknp38luh5rl.apps.googleusercontent.com"</string>
+    <string name="server_client_id">"YOUR FIREBASE API KEY"</string>
     <string name="Ayran">Quench your thirst and stay healthy with our delicious ayran. Made from a perfect blend of yogurt, water, and a pinch of salt, it\'s a refreshing drink you can enjoy at any time.</string>
     <string name="Baklava">Would you like to try our delicious and fresh Turkish baklava? This sweet flavor, which we prepared with care, will leave an unforgettable mark on your palate.</string>
     <string name="Fanta">Are you looking for a refreshing and fizzy beverage to quench your thirst? Look no further! Fanta, with its crisp and fruity flavors, is the perfect choice.</string>

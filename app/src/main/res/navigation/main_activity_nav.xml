@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/yemekListesiFragment">
+
+    <fragment
+        android:id="@+id/yemekListesiFragment"
+        android:name="com.example.bonappetit.ui.fragment.YemekListesiFragment"
+        android:label="fragment_yemek_listesi"
+        tools:layout="@layout/fragment_yemek_listesi" >
+        <action
+            android:id="@+id/sepetGecis"
+            app:destination="@id/sepetFragment" />
+        <action
+            android:id="@+id/yemekSayfasiGecis"
+            app:destination="@id/yemekSayfasiFragment" />
+        <action
+            android:id="@+id/adresSayfasiGecis"
+            app:destination="@id/addressFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sepetFragment"
+        android:name="com.example.bonappetit.ui.fragment.SepetFragment"
+        android:label="fragment_sepet"
+        tools:layout="@layout/fragment_sepet" >
+        <action
+            android:id="@+id/siparisGecis"
+            app:destination="@id/siparisFragment"
+            app:popUpTo="@id/yemekListesiFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/yemekSayfasiFragment"
+        android:name="com.example.bonappetit.ui.fragment.YemekSayfasiFragment"
+        android:label="YemekSayfasiFragment" >
+        <argument
+            android:name="yemek"
+            app:argType="com.example.bonappetit.data.entity.Yemek" />
+    </dialog>
+    <fragment
+        android:id="@+id/addressFragment"
+        android:name="com.example.bonappetit.ui.fragment.AddressFragment"
+        android:label="fragment_address"
+        tools:layout="@layout/fragment_address" >
+        <action
+            android:id="@+id/sepetGecis"
+            app:destination="@id/sepetFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/siparisFragment"
+        android:name="com.example.bonappetit.ui.fragment.SiparisFragment"
+        android:label="fragment_siparis"
+        tools:layout="@layout/fragment_siparis" />
+</navigation>

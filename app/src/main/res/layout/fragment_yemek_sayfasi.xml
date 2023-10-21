@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/yemekSayfasi"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewYemek"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textViewYemek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewYemek"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textViewYemekAciklama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewFiyat"
+        app:layout_constraintStart_toStartOf="@+id/textViewYemek"
+        app:layout_constraintTop_toBottomOf="@+id/textViewYemek" />
+
+    <TextView
+        android:id="@+id/textViewFiyat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewYemek"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewYemek"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/buttonSubtractFood"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/food_page_button_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewFoodAmount"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSepettekiAdet"
+        app:srcCompat="@drawable/subtract_icon"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textViewFoodAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonSubtractFood"
+        app:layout_constraintEnd_toStartOf="@+id/buttonAddFood"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonSubtractFood"
+        app:layout_constraintTop_toTopOf="@+id/buttonSubtractFood"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/buttonAddFood"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/food_page_button_background"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonSubtractFood"
+        app:layout_constraintEnd_toStartOf="@+id/buttonAddToCart"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewFoodAmount"
+        app:layout_constraintTop_toTopOf="@+id/buttonSubtractFood"
+        app:srcCompat="@drawable/add_icon"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/buttonAddToCart"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/primaryColor"
+        android:text="@string/add_to_cart"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonSubtractFood"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonAddFood"
+        app:layout_constraintTop_toTopOf="@+id/buttonSubtractFood"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/favourite_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewYemek"
+        app:srcCompat="@drawable/food_favourite_false"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/textViewSepettekiAdet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewYemekAciklama"
+        app:layout_constraintTop_toBottomOf="@+id/textViewYemekAciklama" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

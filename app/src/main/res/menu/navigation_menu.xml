@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/drawer_creditAndPaymentMethods"
+            android:title="@string/credit_and_payment">
+        </item>
+    </group>
+
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/yemekListesiFragment"
+            android:icon="@drawable/food_icon"
+            android:title="@string/order_food"/>
+        <item
+            android:id="@+id/drawer_vouchersOffers"
+            android:icon="@drawable/voucher_icon"
+            android:title="@string/vouchers_and_offers"/>
+        <item
+            android:id="@+id/favouritesFragment"
+            android:icon="@drawable/favourite_drawer_icon"
+            android:title="@string/favourites"/>
+
+        <item
+            android:id="@+id/siparisFragment"
+            android:icon="@drawable/orders_icon"
+            android:title="@string/orders_reordering"/>
+
+        <item
+            android:id="@+id/userPageFragment"
+            android:icon="@drawable/profile_icon"
+            android:title="@string/view_profile"/>
+
+        <item
+            android:id="@+id/addressFragment"
+            android:icon="@drawable/location_icon"
+            android:title="@string/addresses"/>
+
+        <item
+            android:id="@+id/drawer_bonAppetitClub"
+            android:icon="@drawable/club_icon"
+            android:title="@string/bon_appetit_club"/>
+
+        <item
+            android:id="@+id/drawer_helpCenter"
+            android:icon="@drawable/help_icon"
+            android:title="@string/help_center"/>
+    </group>
+
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/settingsFragment"
+            android:title="@string/settings"/>
+        <item
+            android:id="@+id/drawer_termsConditionsPrivacy"
+            android:title="@string/terms_conditions_privacy"/>
+        <item
+            android:id="@+id/startActivity"
+            android:title="@string/log_out"/>
+    </group>
+</menu>

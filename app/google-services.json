@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "589423648260",
+    "project_id": "bon-appetit-9bf92",
+    "storage_bucket": "bon-appetit-9bf92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589423648260:android:68f0058ebf34b7011c1f51",
+        "android_client_info": {
+          "package_name": "com.example.bonappetit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589423648260-6odli72pl27af6rmora0gcrek5mrd124.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bonappetit",
+            "certificate_hash": "1312bd79293694eefa848e89df55200e12468660"
+          }
+        },
+        {
+          "client_id": "589423648260-puh823upmm5bnng0ccnhgknp38luh5rl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy8hKzQpV6pqrrJSFvl5tElCzCH0QbNig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589423648260-puh823upmm5bnng0ccnhgknp38luh5rl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

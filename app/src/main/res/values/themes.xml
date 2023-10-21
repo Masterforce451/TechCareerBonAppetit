@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BonAppetit" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/primaryColor</item>
+        <item name="android:textColorHint">@color/black</item>
+    </style>
+
+    <style name="loginButtonStyle" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:background">@drawable/login_register_edittext_background</item>
+    </style>
+
+    <style name="Theme.BonAppetit" parent="Base.Theme.BonAppetit" />
+</resources>
